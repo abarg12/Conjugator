@@ -7,7 +7,7 @@ def read_json_data():
     with open("french_data.json", "r") as f:
         data = json.load(f)
 
-    print(data)
+    print(data["verbs"]["\u00EAtre"]["indicative"]["present"][1])
 
 
 def main():

@@ -3,7 +3,10 @@
         "\u00EAtre" : {
             "indicative" : {
                 "present" : [
-                    "suis", "es"
+                    "suis", "es", "est", "sommes", "\u00EAtes", "sont"
+                ],
+                "imperfect past" : [
+                    "\u00E9tais", "\u00E9tais", "\u00E9tait", "\u00E9tions", "\u00E9tiez", "\u00E9taient"
                 ]
             },
             "subjunctive" : {
