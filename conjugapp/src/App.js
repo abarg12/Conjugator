@@ -1,6 +1,8 @@
 import './App.css';
+import AppLogic from './AppLogic';
 
 function App() {
+
   return (
     <div className="App">
       <header className="HeaderBar">
@@ -10,9 +12,7 @@ function App() {
           <p className="AppTitle">ConjuGator</p>
       </header>
       <body>
-        <button type="button" className="MainButton">
-          Click Me!
-        </button>
+        <AppLogic />
       </body>
     </div>
   );
