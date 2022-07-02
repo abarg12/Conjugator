@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+h2 {
+  font-size: 26px;
+  font-family: 'Gotham Light', 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 14%;
+}
+
+body {
+  height: 100% - 120px;
+}
+
 .App {
   text-align: center;
   height: 100%;
@@ -19,6 +29,17 @@
   align-items: center;
   background-color: black;
   /* border: 1px solid black; */
+}
+
+.FooterBar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
 }
 
 .AppTitle {
@@ -39,11 +60,26 @@
   width: 180px;
   height: 50px;
   border-radius: 20px;
-  margin-top: 22%;
+  margin-top: 5%;
   font-size: 20px;
   font-family: Helvetica, Arial, sans-serif;
   color: white;
   background-color: black;
   cursor: pointer;
   font-weight: 600;
+}
+
+.EndButton {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 1%;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  font-weight: 800;
+  position: absolute;
+  right: 2%;
 }

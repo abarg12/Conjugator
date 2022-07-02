@@ -14,6 +14,9 @@ function App() {
       <body>
         <AppLogic />
       </body>
+      <footer className="FooterBar">
+
+      </footer>
     </div>
   );
 }
