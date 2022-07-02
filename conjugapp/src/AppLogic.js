@@ -1,4 +1,5 @@
 import React from 'react';
+import LessonLogic from './LessonLogic';
 
 class AppLogic extends React.Component {
     constructor(props) {
@@ -28,7 +29,7 @@ class AppLogic extends React.Component {
                             onClick={this.handleEndClick}>
                         End Lesson
                     </button>
-                    
+                    <LessonLogic />
                 </div>
             );
         } else {
