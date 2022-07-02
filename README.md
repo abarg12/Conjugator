@@ -1,2 +1,2 @@
 # conjugator
-Practice conjugating French with this PyQt5 application
+Practice conjugating French with this web app
