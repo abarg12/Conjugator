@@ -7,10 +7,12 @@ class LessonLogic extends React.Component {
 
     render() {
         const LessonData = require('./data/french_data.json');
+        const VerbNames = Object.keys(LessonData);
 
         return(
             <div>
-                <p>{LessonData.verbs.être.indicative.present[0]}</p>
+                <p className='PromptText'>{LessonData[VerbNames[0]][0][2]}</p>
+                <input type='text'/>
             </div>
         );
     }

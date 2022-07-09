@@ -1,23 +1,6 @@
 {
-    "verbs": {
-        "\u00EAtre" : {
-            "indicative" : {
-                "present" : [
-                    "suis", "es", "est", "sommes", "\u00EAtes", "sont"
-                ],
-                "imperfect past" : [
-                    "\u00E9tais", "\u00E9tais", "\u00E9tait", "\u00E9tions", "\u00E9tiez", "\u00E9taient"
-                ]
-            },
-            "subjunctive" : {
-    
-            },
-            "conditional" : {
-
-            },
-            "imperative" : {
-
-            }
-        }
-    }
+    "\u00EAtre" : [
+        ["je suis", "tu es", "il/elle/on est", "nous sommes", "vous \u00EAtes", "ils/elles sont"],
+        [ "\u00E9tais", "\u00E9tais", "\u00E9tait", "\u00E9tions", "\u00E9tiez", "\u00E9taient"]
+    ]
 }
