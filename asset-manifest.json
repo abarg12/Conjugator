@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/conjugator/static/css/main.0a8f33c1.css",
+    "main.js": "/conjugator/static/js/main.9da9a795.js",
+    "index.html": "/conjugator/index.html",
+    "main.0a8f33c1.css.map": "/conjugator/static/css/main.0a8f33c1.css.map",
+    "main.9da9a795.js.map": "/conjugator/static/js/main.9da9a795.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a8f33c1.css",
+    "static/js/main.9da9a795.js"
+  ]
+}
