@@ -9,10 +9,15 @@ class LessonLogic extends React.Component {
         const LessonData = require('./data/french_data.json');
         const VerbNames = Object.keys(LessonData);
 
+        // randomly generate the 10 verbs to be conjugated
+        const Verbs = new Array(10);
+        const Tenses = new Array(10);
+        const Person = new Array(10);
+
         return(
-            <div>
-                <p className='PromptText'>{LessonData[VerbNames[0]][0][2]}</p>
-                <input type='text'/>
+            <div className='UIdiv'>
+                <p className='PromptText'>{VerbNames[0]}</p>
+                <input className='ResponseField' type='text'/>
             </div>
         );
     }

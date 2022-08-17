@@ -35,8 +35,7 @@ class AppLogic extends React.Component {
         } else {
             return (
                 <div>
-                    <h2>Learn French the brute force method!<br></br><br></br>
-                        You'll be given an English verb and it's your job to translate it into French—<em>in the correct tense.</em></h2>
+                    <h2>Learn French the brute force method!</h2>
                     <button type="button" className="MainButton"
                             onClick={this.handleStartClick}>
                         Start practicing! 
